@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: green;
+        }
+        .xyx>li{
+            color: blue;
+        }
+        label{
+            color: red;
+        }
+        legend+input{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>About</h1>
+    <p>
+        It can be intimidating for women to learn and ask questions when they are in an extreme minority. While open and welcoming, today's budding developer community is up to 91% male. If we can empower more females with the confidence in their technological capabilities we can begin to change this landscape.
+    </p>
+    <h1>Our Locations</h1>
+    <ul>
+        <li>USA</li>
+        <ul class="xyx">
+            <li><u>New York</u></li>
+            <li><u>Columbus</u></li>
+            <li><u>Austin</u></li>
+            <li><u>Phillys</u></li>
+        </ul>
+        <li>WORLD</li>
+        <ul class="xyx">
+            <li><u>ottawa</u></li>
+            <li><u>sydney</u></li>
+        </ul>
+    </ul>
+    <h1>Upcoming Classes</h1>
+    <table border="2px">
+        <tr>
+            <td><b>Location</b></td>
+            <td><b>Topic</b></td>
+        </tr>
+        <tr>
+            <td style="color:blue;">New York</td>
+            <td style="color:purple;">Javascript&jQuery</td>
+        </tr>
+        <tr>
+            <td style="color:blue;">San Francisco</td>
+            <td style="color: purple;">HTML & CSS</td>
+        </tr>
+    </table>
+    <h1>Sign Up!</h1>
+     <label for="idd">Name:</label>
+            <input id="idd" name="IDD" type="text"> <br> <br>
+             <label for="em"> Email:</label>
+            <input id="em" name="Email" type="email"> <br> <br>
+            <label for="gdr">Location: </label>
+      <select name="loc" id="gdr"><option value="male">San Francisco</option> </select> <br><br>
+        <fieldset>
+    <legend>Gender:</legend>
+    <input type="radio" name="gender"> Female
+    <input type="radio" name="gender"> Male
+</fieldset>
+<br><br>
+<label>Experience:</label><br>
+<textarea rows="4" cols="35"></textarea>
+<br><br>
+<input type="button" value="Sign Up">
+<br><br>
+<a href="#"style="color: lightblue;">Twitter</a> |
+<a href="#" style="color: blue;">Facebook</a> |
+<a href="#" style="color: blue;">Flickr</a>
+</body>
+</html>

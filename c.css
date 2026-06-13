@@ -1,0 +1,166 @@
+#could{
+    border: 2px solid red;
+    height: 200px;
+    width: 300px;
+    animation: cloud;
+    border: none;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-size: 100% 100%;
+    background-image: url(https://png.pngtree.com/png-vector/20221202/ourmid/pngtree-3d-white-clouds-illustration-png-image_6478630.png);
+}
+@keyframes cloud {
+    0%{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+    }
+    50%{
+        position: relative;
+        left: 60vw;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+    }
+        100%{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+    }
+}
+
+#birds{
+    border: 2px solid red;
+   height: 100px;
+   width: 200px;
+   border: none;
+       background-size: 100% 100%;
+       position: relative;
+       top: 100px;
+       left: 300px;
+       animation: birds;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+   background-image: url("bird.gif");
+}
+@keyframes birds {
+    0%{
+        position: relative;
+       top: 100px;
+       left: 300px;
+        right: 0px;
+        bottom: 0px;
+    }
+    20%{
+        position: relative;
+        top: 50px;
+        left: 45vw;
+    }
+    40%{
+        position: relative;
+        top: 100px;
+        left: 60vw;
+    }
+      60%{
+        position: relative;
+        top: 50px;
+        left: 75vw;
+    }
+      80%{
+        position: relative;
+        top: 100px;
+        left: 90vw;
+    }
+    100%{
+        position: relative;
+       top: 100px;
+       left: 100vw;
+        right: 0px;
+        bottom: 0px;
+    }
+
+}
+#road{
+    border: 2px solid red;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    background-color: rgb(60, 60, 65);
+}
+.child{
+     border: 2px solid red;
+     height: 50px;
+     border: none;
+     width: 350px;
+     background-color: white;
+}
+#car{
+    border: 2px solid white;
+    height: 150px;
+    width: 300px;
+    border: none;
+    position: absolute;
+    top: 55vh;
+    left: 80vw;
+    animation: car;
+    animation-duration: 2s;
+    background-size: 100% 100%;
+    animation-iteration-count: infinite;
+    background-image: url(car.png);
+}
+@keyframes car {
+    0%{
+        position: absolute;
+         top: 55vh;
+         left: 80vw;
+    }
+    50%{
+         position: absolute;
+         top: 55vh;
+         left: 0px;
+         right: 0px;
+         bottom: 0px;
+    }
+    100%{
+    position: absolute;
+         top: 55vh;
+         left: 80vw;
+    }
+}
+#sun-moon{
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+     border: none;
+    top: 40vh;
+    left: 90vw;
+    background-size: 100% 100%;
+    animation: sun;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-image: url("sun.png");
+}
+@keyframes sun {
+    0%{
+        position: absolute;
+         top: 40vh;
+    left: 90vw; 
+    bottom: 0px;
+    right: 0px;
+    }
+    50%{
+         position: absolute;
+         top: 0px;
+         left: 90vw;
+         background-image: url(https://static.vecteezy.com/system/resources/previews/028/210/452/non_2x/moon-3d-icon-illustration-free-png.png);
+    }
+    
+}

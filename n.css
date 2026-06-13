@@ -1,0 +1,36 @@
+nav{
+    border: 2px solid red;
+    border: none;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgba(254, 100, 5, 0.671),white);
+}
+.c1,.c2{
+    border: 2px solid red;
+    border: none;
+    height:100%;
+}
+.c1{
+    height: 100px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.c2{
+    width: 60%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+h1:hover{
+ color: white;
+}
+img{
+    width: 300px;
+    height: 90px;
+    mix-blend-mode: multiply;
+}

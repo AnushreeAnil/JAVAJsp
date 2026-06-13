@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+          background-color: rgb(20, 20, 99);  
+        }
+    </style>
+</head>
+<body>
+   <center><h1 style="color: white;">Application Form</h1></center> 
+   <center><table>
+    <tr>
+        <td><label for="n" style="color: white;">Name: </label></td>
+        <td><input id="n" name="name" type="text"></td>
+        <td><label for="ln"style="color: white;">Last Name: </label></td>
+        <td><input id="ln" name="last_name" type="text"></td>
+    </tr>
+    <tr>
+        <td><label for="dob" style="color: white;">Date Of Birth: </label></td>
+        <td><input id="dob" name="dob" type="date"></td>
+         <td><label for="Age"style="color: white;">Age: </label></td>
+        <td><input id="Age" name="Age" type="number"></td> 
+    </tr>
+    <tr>
+       <td><label for="gdr" style="color: white;">Gender: </label></td>
+       <td><select name="gender" id="gdr"><option value="male">Male</option> <option value="female">Female</option></select></td>
+        <td><label for="email" style="color: white;">Email: </label></td>
+        <td><input id="email" name="email" type="email" placeholder="enter email address"></td>
+    </tr>
+    <tr>
+        <td colspan="4" style="color: white;">
+            Positions available:<input type="radio" name="position" value="junior_developer">Junior Developer
+            <input type="radio" name="position" value="mid_level_developer">Mid-Level Developer
+            <input type="radio" name="position" value="senior_developer">Senior Developer
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4" style="color: white;">
+            Programming Languages:<input type="checkbox" name="languages" value="python">Python
+            <input type="checkbox" name="languages" value="java">Java
+            <input type="checkbox" name="languages" value="javascript">JavaScript
+        </td>
+    </tr>
+     <tr>
+       <td><label for="pass" style="color: white;">Password: </label></td>
+       <td><input id="pass" name="password" type="password"></td>
+        <td><label for="confirm_password" style="color: white;">Confirm Password: </label></td>
+        <td><input id="confirm_password" name="confirm_password" type="password"></td>
+    </tr>
+    <tr>
+        <td colspan="4" style="color: white;">
+            <center><button type="submit" style="background-color: red;color: white;">Submit</button>
+            <button type="reset" style="background-color: red;color: white;">Reset</button>
+            </center>
+        </td>
+    </tr>
+   </table>
+   </center>
+</body>
+</html>
